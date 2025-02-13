@@ -1,5 +1,5 @@
 body {
-    background-color: #ffc3da;
+    background-color: #c3f3ff;
 }
 
 .envelope-wrapper {
@@ -15,7 +15,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     top: 50%;
-    background-color: #FF6863;
+    background-color: #8b9cff;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .flap {
-    border-top: 98px solid #FF6863;
+    border-top: 98px solid #8b9cff;
     border-left: 140px solid transparent;
     border-right: 140px solid transparent;
     border-bottom: 82px solid transparent;
@@ -39,9 +39,9 @@ body {
 }
 
 .pocket {
-    border-left: 140px solid #FF8BA0;
-    border-right: 140px solid #FF8BA0;
-    border-bottom: 90px solid #FFA8B5;
+    border-left: 140px solid #8bcbff;
+    border-right: 140px solid #8bcbff;
+    border-bottom: 90px solid #a1dbfc;
     border-top: 90px solid transparent;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
@@ -49,12 +49,12 @@ body {
 
 .letter {
     position: relative;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     width: 90%;
     height: 95%;
     top: 5%;
     border-radius: 10px;
-    box-shadow: 0 2px 26px rgba(223, 200, 200, 0.12);
+    box-shadow: 0 2px 26px rgba(0, 0, 0, .12);
     margin-left: auto;
     margin-right: auto;
 }
@@ -75,7 +75,7 @@ body {
     height: 14%;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
 .line1 {
@@ -86,9 +86,9 @@ body {
 }
 .line3 {
     top: 30%;
-    left: 75%;
-    color: rgb(214, 28, 28);
-
+    text-align: center;
+    left: 45%;
+    color: #0053d0;
 }
 .line4 {
     top: 50%;
@@ -139,7 +139,7 @@ body {
 .heart:before, .heart:after {
     position: absolute;
     content: "";
-    background: #d33e3e;
+    background: #0053d0;
     width: 50px;
     height: 80px;
     left: 50px;
@@ -212,9 +212,9 @@ body {
     font-style: normal;
     transition: all 0.1s linear;
     background-color: transparent;
-    border: solid 2px #FF6863;
+    border: solid 2px #63b9ff;
     border-radius: 4px;
-    color: #FF6863;
+    color: #63b9ff;
     display: inline-block;
     font-size: 14px;
     text-transform: uppercase;
@@ -228,7 +228,7 @@ body {
 }
 
 .reset button:hover {
-    background-color: #FF6863;
+    background-color: #63b9ff;
     cursor: pointer;
     color: white;
 }
@@ -236,7 +236,7 @@ body {
 .valentine {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color:#FF6863;
+    color:#63b9ff;
     font-size: 50px;
     margin: 0px;
 }
